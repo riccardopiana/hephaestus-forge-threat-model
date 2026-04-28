@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "c3f09bc0-0161-4460-9cf0-970a4b4b8a85",
             "zIndex": -1,
+            "id": "c3f09bc0-0161-4460-9cf0-970a4b4b8a85",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -67,53 +67,8 @@
           },
           {
             "position": {
-              "x": 190,
-              "y": -40
-            },
-            "size": {
-              "width": 1880,
-              "height": 990
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "d87bfedf-c83d-4fad-b72b-77ba22c160f7",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": " ",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "5abd621d-7f0b-44a1-bb7e-9a497d92b869",
-                "984641c6-614a-4b95-93af-8720de31f126"
-              ],
-              "containedElements": [
-                "c3f09bc0-0161-4460-9cf0-970a4b4b8a85",
-                "fee4b2e9-3d26-4343-a5b7-1e225378acaa",
-                "a10a941d-5f5c-493d-bb33-812931ff6e88",
-                "4f83eadf-e4d7-4f0f-96ea-d9fb7f421a2c",
-                "5cd88c9c-3e22-4ffb-8073-0a479f71fd6c",
-                "1d8d456b-7888-4fb1-95df-03e5d0c380fe",
-                "89ef6cb1-e05d-4844-8b24-06c975897122",
-                "b6c864a7-0739-40f9-9cff-416bd82fada2",
-                "5f406e8e-8370-4445-ae86-a832199d3fc6",
-                "2836d873-6f06-4e60-b297-f6cd00fcc52b",
-                "0a7015a8-545e-448b-9ffd-37f453a88949",
-                "f4c67d43-cd3f-48e8-888f-3207bac19fdb",
-                "d4060283-c796-4c65-b2ac-5c1231d4dacb",
-                "5045d12d-8c2f-4236-8a33-5f88cf5506ad",
-                "d55ce0de-ceb0-4b6a-ab4b-c90acce3e750",
-                "56fe0265-a49b-4639-a8b3-ff5eb12e2d2f",
-                "b759dc2a-43aa-4e20-9e52-59d020bdf732",
-                "d4ce644a-e94b-4cdc-82ed-8878f9bea105"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1065.9999999999989,
-              "y": 410.0000000000043
+              "x": 1120,
+              "y": 90
             },
             "size": {
               "width": 720,
@@ -121,8 +76,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "fee4b2e9-3d26-4343-a5b7-1e225378acaa",
             "zIndex": -1,
+            "id": "fee4b2e9-3d26-4343-a5b7-1e225378acaa",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -601,8 +556,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "c3f09bc0-0161-4460-9cf0-970a4b4b8a85",
-                "d87bfedf-c83d-4fad-b72b-77ba22c160f7"
+                "c3f09bc0-0161-4460-9cf0-970a4b4b8a85"
               ]
             },
             "labels": [
@@ -650,9 +604,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "d87bfedf-c83d-4fad-b72b-77ba22c160f7"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -1211,8 +1163,8 @@
             },
             "vertices": [
               {
-                "x": 1260,
-                "y": 650
+                "x": 1310,
+                "y": 330
               }
             ]
           },
@@ -1275,7 +1227,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1286,13 +1238,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Refill powder",
+              "name": "Refill powder ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1300,7 +1252,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Refill powde"
+              "Refill powder"
             ],
             "id": "3cbc609b-1d5e-4526-8a8d-4a8fb0a38a8b",
             "source": {
@@ -2226,6 +2178,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2309,7 +2262,6 @@
               ]
             },
             "id": "5f406e8e-8370-4445-ae86-a832199d3fc6",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Olympus\nPortal",
@@ -2349,6 +2301,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2432,7 +2385,6 @@
               ]
             },
             "id": "2836d873-6f06-4e60-b297-f6cd00fcc52b",
-            "zIndex": 19,
             "data": {
               "type": "tm.Store",
               "name": "Blueprints DB ",
@@ -2470,6 +2422,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2553,7 +2506,6 @@
               ]
             },
             "id": "0a7015a8-545e-448b-9ffd-37f453a88949",
-            "zIndex": 20,
             "data": {
               "type": "tm.Process",
               "name": "Slicer\nServer ",
@@ -2571,8 +2523,8 @@
           },
           {
             "position": {
-              "x": 1350,
-              "y": 693
+              "x": 1400,
+              "y": 373
             },
             "size": {
               "width": 60,
@@ -2590,6 +2542,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -2673,7 +2626,6 @@
               ]
             },
             "id": "f4c67d43-cd3f-48e8-888f-3207bac19fdb",
-            "zIndex": 21,
             "data": {
               "type": "tm.Process",
               "name": "Switch ",
@@ -2691,8 +2643,8 @@
           },
           {
             "position": {
-              "x": 1130,
-              "y": 693
+              "x": 1180,
+              "y": 373
             },
             "size": {
               "width": 60,
@@ -2710,6 +2662,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -2793,7 +2746,6 @@
               ]
             },
             "id": "d4060283-c796-4c65-b2ac-5c1231d4dacb",
-            "zIndex": 22,
             "data": {
               "type": "tm.Process",
               "name": "MES ",
@@ -2811,8 +2763,8 @@
           },
           {
             "position": {
-              "x": 1100,
-              "y": 828
+              "x": 1150,
+              "y": 508
             },
             "size": {
               "width": 120,
@@ -2833,6 +2785,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -2916,7 +2869,6 @@
               ]
             },
             "id": "5045d12d-8c2f-4236-8a33-5f88cf5506ad",
-            "zIndex": 23,
             "data": {
               "type": "tm.Store",
               "name": "G-Code DB ",
@@ -2935,8 +2887,8 @@
           },
           {
             "position": {
-              "x": 1514,
-              "y": 693
+              "x": 1564,
+              "y": 373
             },
             "size": {
               "width": 60,
@@ -2954,6 +2906,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -3037,7 +2990,6 @@
               ]
             },
             "id": "d55ce0de-ceb0-4b6a-ab4b-c90acce3e750",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "Printers\n",
@@ -3055,8 +3007,8 @@
           },
           {
             "position": {
-              "x": 1210,
-              "y": 475
+              "x": 1260,
+              "y": 155
             },
             "size": {
               "width": 110,
@@ -3074,6 +3026,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3157,7 +3110,6 @@
               ]
             },
             "id": "56fe0265-a49b-4639-a8b3-ff5eb12e2d2f",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Quality Control\nScanner ",
@@ -3175,8 +3127,8 @@
           },
           {
             "position": {
-              "x": 1499,
-              "y": 535
+              "x": 1549,
+              "y": 215
             },
             "size": {
               "width": 90,
@@ -3194,6 +3146,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -3277,7 +3230,6 @@
               ]
             },
             "id": "b759dc2a-43aa-4e20-9e52-59d020bdf732",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Powder\nManagement\nSystem ",
@@ -3295,8 +3247,8 @@
           },
           {
             "position": {
-              "x": 1653,
-              "y": 678
+              "x": 1703,
+              "y": 358
             },
             "size": {
               "width": 80,
@@ -3314,6 +3266,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -3397,7 +3350,6 @@
               ]
             },
             "id": "d4ce644a-e94b-4cdc-82ed-8878f9bea105",
-            "zIndex": 27,
             "data": {
               "type": "tm.Process",
               "name": "Thermal\nSensors ",
