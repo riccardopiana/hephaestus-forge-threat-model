@@ -68,7 +68,7 @@
           {
             "position": {
               "x": 1120,
-              "y": 90
+              "y": 100
             },
             "size": {
               "width": 720,
@@ -1042,7 +1042,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "G-Code\n+\nprinter ID  ",
+              "name": "G-Code ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1056,7 +1056,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "G-Code\n+\nprinter ID "
+              "G-Code"
             ],
             "id": "2a1493ba-848b-4801-b1d1-3d9138fc02a4",
             "source": {
@@ -1238,7 +1238,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Refill powder ",
+              "name": " ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1252,18 +1252,74 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Refill powder"
+              ""
             ],
-            "id": "3cbc609b-1d5e-4526-8a8d-4a8fb0a38a8b",
+            "id": "667100b6-f561-4a44-a068-d71c3d32ed6f",
             "source": {
-              "cell": "b759dc2a-43aa-4e20-9e52-59d020bdf732",
-              "port": "85712ea2-81fb-41a4-bd42-a83f82509779"
+              "cell": "d4ce644a-e94b-4cdc-82ed-8878f9bea105",
+              "port": "9a2dc1ba-b5bc-46c4-8392-012e2eff5d1d"
             },
             "target": {
               "cell": "d55ce0de-ceb0-4b6a-ab4b-c90acce3e750",
-              "port": "3d679be5-1d1a-4ce5-88af-73c756cae205"
+              "port": "4930ae14-c9e9-45d2-9b3a-84de8fa3ffc3"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Reschedule piece ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Reschedule piece"
+            ],
+            "id": "5de689c0-119d-4dcf-80df-7683130a05d6",
+            "source": {
+              "cell": "56fe0265-a49b-4639-a8b3-ff5eb12e2d2f",
+              "port": "85712ea2-81fb-41a4-bd42-a83f82509779"
+            },
+            "target": {
+              "cell": "d4060283-c796-4c65-b2ac-5c1231d4dacb",
+              "port": "3d679be5-1d1a-4ce5-88af-73c756cae205"
+            },
+            "vertices": [
+              {
+                "x": 1290,
+                "y": 300
+              },
+              {
+                "x": 1230,
+                "y": 300
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1301,16 +1357,72 @@
             "labels": [
               ""
             ],
-            "id": "667100b6-f561-4a44-a068-d71c3d32ed6f",
+            "id": "3cbc609b-1d5e-4526-8a8d-4a8fb0a38a8b",
             "source": {
-              "cell": "d4ce644a-e94b-4cdc-82ed-8878f9bea105",
-              "port": "9a2dc1ba-b5bc-46c4-8392-012e2eff5d1d"
+              "cell": "b759dc2a-43aa-4e20-9e52-59d020bdf732",
+              "port": "85712ea2-81fb-41a4-bd42-a83f82509779"
             },
             "target": {
               "cell": "d55ce0de-ceb0-4b6a-ab4b-c90acce3e750",
-              "port": "4930ae14-c9e9-45d2-9b3a-84de8fa3ffc3"
+              "port": "3d679be5-1d1a-4ce5-88af-73c756cae205"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Check token ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Check token"
+            ],
+            "id": "d140a33f-63d0-4132-8c2e-30fea6c0fff0",
+            "source": {
+              "cell": "5f406e8e-8370-4445-ae86-a832199d3fc6",
+              "port": "3d679be5-1d1a-4ce5-88af-73c756cae205"
+            },
+            "target": {
+              "cell": "b6c864a7-0739-40f9-9cff-416bd82fada2",
+              "port": "3f731180-6492-48a4-a424-26ed8716cb81"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 490
+              },
+              {
+                "x": 820,
+                "y": 460
+              }
+            ]
           },
           {
             "position": {
@@ -1915,11 +2027,11 @@
           },
           {
             "position": {
-              "x": 463.75,
+              "x": 490,
               "y": 320
             },
             "size": {
-              "width": 150,
+              "width": 120,
               "height": 120
             },
             "attrs": {
@@ -2159,8 +2271,8 @@
           },
           {
             "position": {
-              "x": 485,
-              "y": 480
+              "x": 490,
+              "y": 555
             },
             "size": {
               "width": 90,
